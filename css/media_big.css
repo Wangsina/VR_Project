@@ -1,0 +1,41 @@
+/* 大屏幕（大桌面显示器，大于等于 1024px） */
+@media (min-width: 1024px) {
+    body,html{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   margin: 0px;
+	   padding: 0px;
+	}
+	/***************首页背景视频****************/
+	.index_videoBox{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		z-index: -1;
+	 }
+	video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100vh; 
+	}
+	/***************首页居中内容****************/
+	.index_midBox h3{
+		font-size: 48px;
+	}
+	.index_midBox p{
+		font-size: 24px;
+		margin: 20px 0 20px 0;
+		text-shadow: none;
+		font-weight: 100;
+	}
+	/*调节场景页和首页之间的一条白线*/
+	.rchangjing{
+		margin-top: -6px;
+	}	
+}
+
+
+
+

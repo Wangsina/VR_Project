@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>未来VR</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/media_big.css" />
+  <link rel="stylesheet" href="css/media_middle.css" />
+  <link rel="stylesheet" href="css/media_small.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js" ></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js" ></script>
+  <script type="text/javascript" src="js/index_jQuery.js"></script>
+  <!--<script type="text/javascript" src="js/index.js" ></script>-->
+  <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+  </head>
+  <body>
+	 	  <header class="index_topBox">
+			    <div class="index_logoBox">
+			        <img class="inde_logoPic" src="img/index_logo.png"/>
+			    </div>
+			    <div class="index_navSide">
+			        <hr />
+			        <hr />
+			        <hr />
+			    </div>
+			    <div class="index_navSideBox">
+			        <div class="index_navSideBox_logoBox">
+			        	<img src="img/index_logo.png"/>
+			        </div>
+			        <ul class="index_navSide_ul">
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="首页" href="#">首页</a>
+			        	</li>
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="关于" href="#">关于</a>
+			        	</li>
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="应用场景" href="#">应用场景</a>
+			        	</li>
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="案例" href="#">案例</a>
+			        	</li>
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="资讯" href="#">资讯</a>
+			        	</li>
+			        	<li class="index_navSide_li">
+			        		<a class="index_navSide_text" title="联系" href="#">联系</a>
+			        	</li>
+			        </ul>
+			        <div class="index_navBox_footer">
+			        	<div class="index_navBox_footerQrcode">
+			        		<img src="img/qrcode.png"/>
+			        	</div>
+			        	<div class="index_navBox_footerPhone">
+			        		<a title="电话" href="tel">官方热线：000-000-000</a>
+			        	</div>
+			        </div>
+			    </div>
+			    <div class="index_navBox">
+			        <ul class="index_navUl">
+			            <li class="index_navLi">
+			            	<a title="首页" href="#">首页</a>
+			            </li>
+			            <li >
+			            	<a  title="应用场景" href="#">应用场景</a>
+			            </li>
+			            <li >
+			            	<a  title="关于我们" href="#">关于我们</a>
+			            </li>
+			            <li >
+			            	<a  title="新闻资讯" href="#">新闻资讯</a>
+			            </li>
+			            <li >
+			            	<a  title="精彩案例" href="#">精彩案例</a>
+			            </li>
+			            <li >
+			            	<a  title="联系我们" href="#">联系我们</a>
+			            </li>
+			           </ul>
+			    </div>
+			</header>
+      <section>
+      	<div title="首页" class="home">
+      		 <div class="container-fluid index_videoBox">
+      		 	<!--muted静音    解决了在谷歌浏览器播放不了视频的问题-->
+			         <video muted loop="loop" autoplay="autoplay" src="img/home_video.mp4" type="video/mp4"></video> 
+			   	  </div>
+			    	<div class="index_bigBox">
+				      <div class="index_midBox">
+					       <h3>Hello，未来。</h3>
+					       <p>未来VR，从现在，跟未来打声招呼吧。</p>
+					       <span class="index_midBox_span"></span>
+					    </div>
+					    <div class="index_bottomBox">
+					        <span class="index_bottomBox_span">滑动查看下一页</span>
+					        <i class="glyphicon glyphicon-menu-down"></i>
+					    </div>
+			      </div>
+      	</div>
+	      <div title="应用场景" class="changjing rchangjing">
+	          <div class="changjing_bg">
+	          	 <div id="changjing_bgone" class="changjing_bgpic">
+	          	 	  
+	          	 </div>
+	          	 <div id="changjing_bgtwo" class="changjing_bgpic">
+	          	 	
+	          	 </div>
+	          	 <div id="changjing_bgthree" class="changjing_bgpic">
+	          	 	
+	          	 </div>
+	          	 <div id="changjing_bgfour" class="changjing_bgpic">
+	          	 	
+	          	 </div>
+	          </div>
+	          <div class="changjing_body">
+	          	  <div class="changjing_bodyhead">
+	          	  	<h3>从现在开始，VR，改变生活</h3>
+	          	  	<span class="changjing_bodyhead_span">为众多行业量身定制解决方案</span>
+	          	  </div>
+	          	  <div class="changjing_bodymid">
+	          	  		 <ul id="changjing_bodyul">
+	          	  		 	<li class="changjing_bodyli">        	  		 		
+	          	  		 	</li>
+	          	  		 	<li class="changjing_bodyli">
+	          	  		 		<span class="bigword">VR+房产</span>
+	          	  		 		<div>
+	          	  		 			<p>实现户外户内景观空间虚拟的720沉浸漫游 足不出户，也能东观天下</p>
+	          	  		 	  	<a class="chanfjing_learnmore"><span>了解更多</span></a>
+	          	  		 		</div>	
+	          	  		 	</li>
+	          	  		 	<li class="changjing_bodyli">
+	          	  		 		<span class="bigword">VR+旅游</span>
+	          	  		 		<div>
+	          	  		 			<p>让顾客抢先体验美景,在家中自由漫游，不出门便可遨游天下，前所未有的视角，体验更精彩新奇的风景</p>
+	          	  		 	  	<a class="chanfjing_learnmore"><span>了解更多</span></a>
+	          	  		 		</div>
+	          	  		 	</li>
+	          	  		 	<li class="changjing_bodyli">
+	          	  		 		<span class="bigword">VR+直播</span>
+	          	  		 		<div> 
+	          	  		 			<p>为每个客户定制专属的方案，充分考虑拍摄内容特点和客户的需求，通过自主研发的云数据传输技术</p>
+	          	  		 	 	  <a class="chanfjing_learnmore"><span>了解更多</span></a>
+	          	  		 		</div>     
+	          	  		 	</li>
+	          	  		 	<li class="changjing_bodyli">
+	          	  		 		<span class="bigword">VR+汽车</span>
+	          	  		 		<div>
+	          	  		 			<p>身临其境的感官和新颖的互动环节，传统的线下展示销售环节直接搬到线上来进行“沉浸式”。一体化的“汽车营销新模式”</p>
+	          	  		 	    <a class="chanfjing_learnmore"><span>了解更多</span></a>
+	          	  		 		</div>
+	          	  		 	</li>
+	          	  		 	<li class="changjing_bodyli">	 		
+	          	  		 	</li>
+	          	  		 </ul>
+	          	  	   <div class="changjing_leftRight">
+	          	  	   	  <div id="left">
+	          	  	   	  	<i class="changjing_icon glyphicon glyphicon-chevron-left"></i>
+	          	  	   	  </div>
+	          	  	   	  <div id="right">
+	          	  	   	  	<i class="changjing_icon glyphicon glyphicon-chevron-right"></i>
+	          	  	   	  </div>
+	          	  	   </div>
+	          	  </div>
+	          </div>
+	          <div class="changjing_box">
+	          	<div class="changjing_boxbig">
+	          		<ol class="changjing_boxbig_ol">
+	          			<li>
+	          				<p><br></p>
+	          			</li>
+	          			<li>
+	          				<p><br></p>
+	          			</li>
+	          			<li>
+	          				<p><br></p>
+	          			</li>
+	          			<li>
+	          				<p><br></p>
+	          			</li>
+	          		</ol>
+	          	</div>
+	            <div class="changjing_boxsmall"></div>
+	          </div>
+	      </div>
+	      <div title="关于我们" class="aboutUs">
+	      	<div class="aboutUs_pic"></div>
+	      	<div class="aboutUs_content">
+	      		  <!--<section class="aaa">-->
+	      			<h3 class="aboutUs_title">国内顶尖VR行业应用解决方案服务商 </h3>
+	      			<span class="aboutUs_line"></span>
+	      			<div class="aboutUs_text">
+	      				未来VR有限公司利用3D全景技术与虚拟现实（VR）技术构建的国内领先
+	      				的全景和虚拟现实服务公司，为客户提供VR全景拍摄、VR全景推广、企
+	      				业VR网站制作、广告策划VR、VR广告设计宣传、VR产品推广、品牌营销
+	      				策划、VR宣传策划、企业VR全景制作、企业VR制作、企业VR拍摄的发布
+	      				和分享。我们秉着诚信、创新、开放、深耕的态度，为餐饮，家居，旅游，
+	      				房地产，汽车，医疗，学校，酒店，会所等行业客户提供稳定可靠的诚信
+	      				服务。我们，让互联网更真实。 
+	      			</div>
+	      			<a class="aboutUs_learnmore"><span>了解更多</span></a>
+	      	    <!--</section>-->
+	      	</div>
+	        <div class="aboutUs_cattoon">
+	        	<canvas ></canvas>
+	        </div>
+	      </div>
+	      <div title="新闻资讯" class="newsInfo">
+	      	<div class="container newsInfo_bigbox">
+	      		<div class="newsInfo_head">
+	      			<h3>新闻资讯</h3>
+	      			<span>—— 准备好迎接VR革命了吗 ——</span>
+	      		</div>
+	      		<div class="newsInfo_textbox">
+	      			<ul id="newsInfo_ul">
+	      				<li class="newsInfo_li">
+	      					<a>
+	      						<div class="newsInfo_box">
+	      							<a class="newsInfo_btn">
+	    										<i>></i>
+	      							</a>
+	      							<div class="newsInfo_boxtext">
+	      								<p class="newsInfo_date">2019-03-08</p>
+	      								<h3>什么是VR技术</h3>
+	      								<p id="newsInfo_text">
+	      									最近IT界我们听到最多的是VR技术，VR这阵风犹如前些日子的4K规格一样呼的一声就吹来了，
+	      									随之而来的各种VR相关的消息在催生。简简单单的两个字母实际包含的内容相当的丰富。不过
+	      									消费者似乎还觉得犯迷糊，到底VR是什么东西呢。VR如此火 是前景一片大好还是一时...查看
+	      									详情11-09 / 2017
+	      								</p>
+	      							</div>
+	      							<div id="newsInfo_boxpic1" class="newsInfo_boxpic">
+	      								<div class="newsInfo_boxpicBorder"></div>
+	      							</div>
+	      						</div>
+	      					</a>
+	      				</li>
+	      				<li class="newsInfo_li">
+	      					<a>
+	      						<div class="newsInfo_box">
+	      							<div id="newsInfo_boxpic2" class="newsInfo_boxpic">
+	      								<div class="newsInfo_boxpicBorder"></div>
+	      							</div>
+	      							<a class="newsInfo_btn">
+	    										<i>></i>
+	      							</a>
+	      							<div class="newsInfo_boxtext">
+	      								<p class="newsInfo_date">2019-03-08</p>
+	      								<h3>VR全景拍摄校园概念</h3>
+	      								<p id="newsInfo_text">
+	      									VR全景拍摄是基于3D全景和VR(虚拟现实)技术等高新技术的发展，以虚拟现实场景
+	      									界面的形式直观表现现实校园的景观及设施，并可上传到互联网提供远程用户访问和虚
+	      									拟漫游，促进校园建设和教育发展的一种全新的技术概念。无时空限制：制作成的文
+	      									件占用空间小，可放在任意网站中...查看详情11-09 / 2017
+	      								</p>
+	      							</div>
+	      						</div>
+	      					</a>
+	      				</li>
+	      				<li class="newsInfo_li">
+	      					<a>
+	      						<div class="newsInfo_box">
+	      							<a class="newsInfo_btn">
+	    										<i>></i>
+	      							</a>
+	      							<div class="newsInfo_boxtext">	
+	      								<p class="newsInfo_date">2018-05-15</p>
+	      								<h3>VR具体是做什么用的？</h3>
+	      								<p id="newsInfo_text">
+	      									VR（Virtual Reality，即虚拟现实，简称VR），是由美国VPL公司创建人
+	      									拉尼尔（Jaron Lanier）在20世纪80年代初提出的。其具体内涵是：综合利
+	      									用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三
+	      									维环境中提供沉浸感觉...查看详情11-09 / 2017
+	      								</p>
+	      							</div>
+	      							<div id="newsInfo_boxpic3" class="newsInfo_boxpic">
+	      								<div class="newsInfo_boxpicBorder"></div>
+	      							</div>
+	      						</div>
+	      					</a>
+	      				</li>
+	      				<li class="newsInfo_li">
+	      					<a>
+	      						<div class="newsInfo_box">
+	      							<div id="newsInfo_boxpic4" class="newsInfo_boxpic">
+	      								<div class="newsInfo_boxpicBorder"></div>
+	      							</div>
+	      							<a class="newsInfo_btn">
+	    									<i>></i>
+	      							</a>
+	      							<div class="newsInfo_boxtext">
+	      								<p class="newsInfo_date">2018-05-15</p>
+	      								<h3>VR全景拍摄的主要注意事项</h3>
+	      								<p id="newsInfo_text">
+	      									vr全景视频拍摄制作公司——未来VR！首次向外界全面介绍vr全景视频
+	      									拍摄及制作流程真正的vr视频，观众可以在虚拟环境中自由走动并探索，
+	      									从这个角度来说，当前大部分所谓的vr视频，实际上只能称之为全景视
+	      									频，观众可以360度环绕观察，但缺少与虚拟环境互动的能力。然而..
+	      									.查看详情11-09 / 2017
+	      								</p>
+	      							</div>
+	      						</div>
+	      					</a>
+	      				</li>
+	      				<li class="newsInfo_li">
+	      					<a>
+	      						<div class="newsInfo_box">
+	      							<a class="newsInfo_btn">
+	    									<i>></i>
+	      							</a>
+	      							<div class="newsInfo_boxtext">
+	      								<p class="newsInfo_date">2018-05-15</p>
+	      								<h3>企业VR拍摄的技巧</h3>
+	      								<p id="newsInfo_text">
+	      									企业VR拍摄处于初期探索阶段，而针对于VR硬件设备不断成熟时，VR影视资源
+	      									内容匮乏，因此，要填充VR影视资源的空白，就需要做好VR内容方面的准备。
+	      									这里今天就为大家展现下VR视频拍摄的10大技巧。 VR视频和360度全景视频
+	      									有区别吗？这个还是有区别的。在VR视频...查看详情11-09 / 2017
+	      								</p>
+	      							</div>
+	      							<div id="newsInfo_boxpic5" class="newsInfo_boxpic">
+	      								<div class="newsInfo_boxpicBorder"></div>
+	      							</div>
+	      						</div>
+	      					</a>
+	      				</li>
+	      			</ul>	
+	      		</div>
+	      	  <div id="newsInfo_leftRight">
+	      				<div id="newsInfo_left">
+	      					<span><</span>
+	      				</div>
+	      				<div id="newsInfo_right">
+	      					<span>></span>
+	      				</div>
+	      		</div>
+	      	</div>
+	      </div>
+	      <div title="精彩案例" class="wonderfulCase">
+	      	<div class="container wonderfulCase_bigbox">
+	      		<div class="wonderfulCase_head">
+	      			<h3>精彩案例</h3>
+	      			<span>—— 他们都选择了未来AR ——</span>
+	      		</div>
+	      		<div id="wonderfulCase_textbox">
+	      			<ul id="wonderfulCase_ul">
+	      				<li class="wonderfulCase_li">
+	                 <img class="wonderfulCase_boxpic" src="img/wonderfulCase1.jpg"/>
+	                 <div class="wonderfulCase_litop">
+	                 </div>
+	                 <figcaption class="wf_litopContent">
+                 	 	  <h3>上海大众</h3>
+                 	 		<p>通过摄像头识别车辆的细节，在屏幕中汽车的相应部位标识相关信息，例如按键的功能、车辆重点保养部位等，并 </p>
+	                 </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase2.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                 </div>
+	                 <figcaption class="wf_litopContent">
+                 	 	  <h3>武汉.晴川桥</h3>
+                 	 		<p>钢管桁架分11段预制、吊装（全桥22段），最大吊重<60t，长度约25 -30m。考虑到280</p>
+                 	 </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase3.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                </div>
+	                <figcaption class="wf_litopContent">
+	             	 	  <h3>友谊赛</h3>
+	             	 		<p>跳出了传统平面视频的视觉框定，身临其境观看现场的比赛，感受比赛气氛。... </p>
+	             	  </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase4.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                </div>
+	                <figcaption class="wf_litopContent">
+	             	 	  <h3>小型公寓酒店</h3>
+	             	 		<p>VR酒店全景制作，给人身临其境的感受，真切感受到房间与周围环境，置身其中。... </p>
+	             	  </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase5.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                </div>
+	                <figcaption class="wf_litopContent">
+	             	 	  <h3>奔驰汽车</h3>
+	             	 		<p>“虚拟驾驶系统”模拟出真实道路情况来进行辅助驾驶体验带来意想不到的刺激体验，参与到车辆销售、试驾环节 </p>
+	             	  </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase6.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                </div>
+	                <figcaption class="wf_litopContent">
+	             	 	  <h3>青海.雅丹</h3>
+	             	 		<p>世界文化与自然双重遗产，国家5A级旅游景区，感受自然风光。... </p>
+	             	  </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase7.jpg"/>
+	      				  <div class="wonderfulCase_litop">
+	                </div>
+	                <figcaption class="wf_litopContent">
+	             	 	  <h3>巨星演唱会</h3>
+	             	 		<p>12月8日，乌鲁木齐黄金大厦以震撼手笔为全乌鲁木齐奉上了一场视听完美的群星演唱会，这一夜，全乌鲁木齐 </p>
+	             	  </figcaption>
+	      				</li>
+	      				<li class="wonderfulCase_li">
+	      					<img class="wonderfulCase_boxpic" src="img/wonderfulCase8.jpg"/>
+	      				  <div class="wonderfulCase_litop"> 
+	                </div>
+	                 <figcaption class="wf_litopContent">
+                 	 	  <h3>泰山.泰城</h3>
+                 	 		<p>世界文化与自然双重遗产，国家5A级旅游景区，感受自然风光。..世界文化与自然双重遗产，国家5A级旅游 </p>
+                 	 </figcaption>
+	      				</li>
+	      			</ul>
+	      		</div>
+	      	</div>
+	      </div>
+	      <div title="联系我们" class="ContactUs">  	
+	         <div id="dituContent" class="ContactUs_map"></div>
+	         <div id="ContactUs_textbg1" class=""></div>
+	         <div id="ContactUs_textbg2" class=""></div>
+	         <div id="ContactUs_textbox">
+	         	 	<div id="ContactUs_texthead">
+	         	 		<h3>联系我们</h3>
+	         	 		<span></span>
+	         	 		<p>Contact Us</p>
+	         	 	</div>
+	         	 	<ul id="ContactUs_textdetail">
+	         	 		<li>湖南省长沙市洋湖总部经济区</li>
+	         	 		<li>
+	         	 			 <span class="line"></span>
+	         	 		</li>
+	         	 		<li>官方热线：000-000-0000</li>
+	         	 		<li>email@email.mt</li>
+	         	 	</ul>
+	         </div>
+	      </div>
+      </section>
+  </body
+</html>
